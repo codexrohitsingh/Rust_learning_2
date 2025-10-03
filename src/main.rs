@@ -51,18 +51,20 @@
 // length
 
 
-fn main(){
-    // let string_name =  get_string_length("Hi there ");
-    let str = String::from("Hello");
-    print!("{}",get_string_length(str));
-    // print!("{:?}",string_name);
-
-}
-
-fn get_string_length(name:String)->usize{
-     let nam= name.chars().count();
-    // print!("{}",nam);
-    return  nam;
-
-}
-
+// fn main(){
+    //     // let string_name =  get_string_length("Hi there ");
+    //     let str = String::from("Hello");
+    //     print!("{}",get_string_length(str));
+    //     // print!("{:?}",string_name);
+    
+    // }
+    
+    // fn get_string_length(name:String)->usize{
+        //      let nam= name.chars().count();
+        //     // print!("{}",nam);
+        //     return  nam;
+        
+        // }
+        
+        
+        // ------------------------------------------------------------------------------------
