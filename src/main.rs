@@ -68,3 +68,50 @@
         
         
         // ------------------------------------------------------------------------------------
+        
+        
+        // STRUCT 
+        
+        // struct User{
+            //     first_name:String,
+            //     last_name:String,
+            //     age:i32,
+            // }
+            
+            // fn main(){
+                //     let user = User{
+                    //         first_name:String::from("ROhit singh"),
+                    //         last_name:String::from("Singh"),
+                    //         age:32,
+                    //     };
+                    //     print!("{}",user.first_name);
+                    // }
+
+
+
+
+
+
+// ------------------------------------------------------------------------------------
+
+// STRUCT with IMPL
+
+struct Rect{
+    width:i32,
+    height:i32,
+}
+
+
+impl Rect{
+    fn area(&self)->i32{
+        return self.width*self.height;
+    }
+}
+
+fn main(){
+    let rectangle = Rect{
+        width:32,
+        height:23,
+    };
+    print!("{}",rectangle.area());
+}
