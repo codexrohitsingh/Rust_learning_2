@@ -44,3 +44,22 @@
 // }
 
 // ------------------------------------------------------------------------------------
+
+
+// Question 3 
+// Write a function get_string_length that takes a string as as input and return its
+// length
+
+
+fn main(){
+    let string_name =  get_string_length("Hi there ");
+    print!("{:?}",string_name);
+
+}
+
+fn get_string_length(name:&str){
+     let nam= name.chars().count();
+    print!("{}",nam)
+
+}
+
