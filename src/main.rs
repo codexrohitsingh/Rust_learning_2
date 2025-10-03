@@ -20,7 +20,7 @@
 // Write a function fib that finds the fibbonacci of a number it takes as input 
 
 fn main(){
-is_fibonacci(5);
+    is_fibonacci(5);
 }
 
 fn is_fibonacci(n:i32)->i32{
@@ -42,3 +42,5 @@ fn is_fibonacci(n:i32)->i32{
     print!("{}",third_number);
     return third_number;
 }
+
+// ------------------------------------------------------------------------------------
