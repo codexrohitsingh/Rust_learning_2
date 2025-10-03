@@ -97,21 +97,28 @@
 // STRUCT with IMPL
 
 // struct Rect{
-//     width:i32,
-//     height:i32,
-// }
+    //     width:i32,
+    //     height:i32,
+    // }
+    
+    
+    // impl Rect{
+        //     fn area(&self)->i32{
+            //         return self.width*self.height;
+            //     }
+            // }
+            
+            // fn main(){
+                //     let rectangle = Rect{
+                    //         width:32,
+                    //         height:23,
+                    //     };
+                    //     print!("{}",rectangle.area());
+                    // }
 
 
-// impl Rect{
-//     fn area(&self)->i32{
-//         return self.width*self.height;
-//     }
-// }
 
-// fn main(){
-//     let rectangle = Rect{
-//         width:32,
-//         height:23,
-//     };
-//     print!("{}",rectangle.area());
-// }
+
+
+
+// ------------------------------------------------------------------------------------
